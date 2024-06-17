@@ -17,7 +17,7 @@ class LoginService extends ApiService<any> {
 
     logout() {
         localStorage.clear();
-        window.location.href='/login'
+        window.location.href='/home'
     }
 
     
